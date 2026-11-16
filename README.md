@@ -9,6 +9,7 @@
   <a href="https://ae-agency.vercel.app"><img src="https://img.shields.io/badge/AEAgency-Website-0A0A23?style=for-the-badge&logo=vercel&logoColor=white" /></a>
   <a href="mailto:ez.adam10@gmail.com"><img src="https://img.shields.io/badge/Email-Contact-EA4335?style=for-the-badge&logo=gmail&logoColor=white" /></a>
   <a href="https://www.linkedin.com/in/TON-PROFIL"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+    <a href="https://wa.me/212639559454"><img src="https://img.shields.io/badge/WhatsApp-Chat-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" /></a>
 </p>
 
 ---
@@ -46,4 +47,8 @@
 
 ### 🤝 Let's work together
 
-Need a website, an online store or a custom web app? Reach out at **ez.adam10@gmail.com** or visit **[ae-agency.vercel.app](https://ae-agency.vercel.app)**.
+Need a website, an online store or a custom web app? Reach out:
+
+- 📧 **ez.adam10@gmail.com**
+- 💬 **WhatsApp: [+212 639 559 454](https://wa.me/212639559454)**
+- 🌐 **[ae-agency.vercel.app](https://ae-agency.vercel.app)**
