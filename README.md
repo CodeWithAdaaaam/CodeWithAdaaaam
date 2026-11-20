@@ -13,7 +13,7 @@
 <p align="center">
   <img src="https://img.shields.io/badge/~1000-products_imported_via_CSV-ECBDD8?style=for-the-badge&labelColor=0A0A0A" alt="Highlight 1" />
   <img src="https://img.shields.io/badge/17-supplier_API_endpoints_synced-ECBDD8?style=for-the-badge&labelColor=0A0A0A" alt="Highlight 2" />
-  <img src="https://img.shields.io/badge/4-products_shipped_since_2025-ECBDD8?style=for-the-badge&labelColor=0A0A0A" alt="Highlight 3" />
+  <img src="https://img.shields.io/badge/8-projects_delivered-ECBDD8?style=for-the-badge&labelColor=0A0A0A" alt="Highlight 3" />
 </p>
 
 ## 🧬 about
@@ -65,32 +65,61 @@ me = {
 <table>
   <tr>
     <td width="50%" valign="top">
-      <h3>🛒 Deportivo.ma</h3>
-      <sub><b>Magento 2 + Hyvä · e-commerce</b></sub>
-      <p>Mobile-first rebuild for a Moroccan sports retailer. Dockerized Magento 2.4, Akeneo as PIM and Odoo as stock, price and loyalty source. Includes a middleware syncing a Spanish supplier's catalog API (17 endpoints, 60 req/min).</p>
-      <p><code>Magento 2.4</code> <code>Hyvä</code> <code>PHP</code> <code>Akeneo</code> <code>Odoo</code> <code>Docker</code></p>
+      <h3>🛒 Deportivo</h3>
+      <sub><b>e-commerce · B2C + B2B on one Magento install</b></sub>
+      <p>Rebuild of deportivo.ma on Magento 2 + Hyvä, plus a B2B "Pro" storefront from the same codebase. Custom modules, single-page checkout, Akeneo PIM sync, ~1,000 products, mobile-first QA.</p>
+      <p><code>Magento 2</code> <code>Hyvä</code> <code>PHP</code> <code>Alpine.js</code> <code>Docker</code> <code>Akeneo</code></p>
     </td>
     <td width="50%" valign="top">
       <h3>🧘 <a href="https://posture-life.com">Posture</a></h3>
       <sub><b>studio booking platform · live</b></sub>
-      <p>Booking and management for a studio: class planning, coach capacity, credit packs, waiting list, cancellations, member tracking, reminders by email (Resend) and WhatsApp.</p>
+      <p>Class planning, coach capacity, credit packs, waiting list, cancellations, member tracking, email (Resend) and WhatsApp reminders.</p>
       <p><code>Next.js</code> <code>NestJS</code> <code>Prisma</code> <code>PostgreSQL</code></p>
       <a href="https://posture-life.com"><img src="https://img.shields.io/badge/visit_the_site-A21517?style=for-the-badge" alt="Visit Posture" /></a>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <h3>🎓 LearnAI</h3>
-      <sub><b>final-year project · 2026</b></sub>
-      <p>Adaptive learning platform: IRT / Rasch adaptive quizzes, a RAG chatbot over course content, AI course generation and a teaching dashboard. Dockerized with GitHub Actions CI.</p>
-      <p><code>Next.js 14</code> <code>FastAPI</code> <code>PostgreSQL</code> <code>pgvector</code> <code>Redis</code></p>
+      <h3>🧬 KinaDB</h3>
+      <sub><b>research database</b></sub>
+      <p>Protein kinase structures, activation states and kinase-targeting drugs. Searchable, data-driven browse, drug and structure pages, AlphaFold predictions, password-gated.</p>
+      <p><code>Next.js</code> <code>Python</code> <code>Vercel</code> <code>Cloudflare R2</code></p>
     </td>
     <td width="50%" valign="top">
-      <h3>🏢 <a href="https://ae-agency.vercel.app">AEAgency</a></h3>
-      <sub><b>my web agency</b></sub>
-      <p>Websites, online stores and custom web apps for businesses in Morocco and beyond.</p>
-      <p><code>Next.js</code> <code>Vercel</code></p>
-      <a href="https://ae-agency.vercel.app"><img src="https://img.shields.io/badge/visit_the_agency-A21517?style=for-the-badge" alt="Visit AEAgency" /></a>
+      <h3>🎨 beColor</h3>
+      <sub><b>multilingual web app</b></sub>
+      <p>Client app with calendar, dashboards and charts, drag-and-drop, QR codes and PDF export, backed by an Express API.</p>
+      <p><code>Next.js</code> <code>Express</code> <code>Tailwind</code> <code>next-intl</code></p>
+      <a href="https://github.com/CodeWithAdaaaam/becolor-client"><img src="https://img.shields.io/badge/see_the_code-A21517?style=for-the-badge" alt="beColor code" /></a>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>💈 Barber Co</h3>
+      <sub><b>barbershop website</b></sub>
+      <p>Showcase site with online appointment booking (Calendly) and Supabase auth.</p>
+      <p><code>Next.js</code> <code>Supabase</code> <code>Tailwind</code></p>
+      <a href="https://github.com/CodeWithAdaaaam/Barber-Co"><img src="https://img.shields.io/badge/see_the_code-A21517?style=for-the-badge" alt="Barber Co code" /></a>
+    </td>
+    <td width="50%" valign="top">
+      <h3>✂️ Barber Plus</h3>
+      <sub><b>barbershop booking platform</b></sub>
+      <p>Public site with online booking, plus an admin dashboard: appointments, calendar, clients, charts and shop settings.</p>
+      <p><code>React</code> <code>TypeScript</code> <code>Vite</code> <code>Supabase</code> <code>Tailwind</code></p>
+      <a href="https://github.com/CodeWithAdaaaam/barberplus"><img src="https://img.shields.io/badge/see_the_code-A21517?style=for-the-badge" alt="Barber Plus code" /></a>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>🏦 Advisuract</h3>
+      <sub><b>multi-tenant financial SaaS</b></sub>
+      <p>Financial intelligence platform for SMEs and accounting firms: NestJS API with PostgreSQL row-level security tenant isolation, Auth0, KPI engine, Next.js frontend.</p>
+      <p><code>Next.js</code> <code>NestJS</code> <code>PostgreSQL</code> <code>Redis</code> <code>Auth0</code></p>
+    </td>
+    <td width="50%" valign="top">
+      <h3>🤖 Intellia Tech</h3>
+      <sub><b>delivered project</b></sub>
+      <p>Details coming soon.</p>
     </td>
   </tr>
 </table>
